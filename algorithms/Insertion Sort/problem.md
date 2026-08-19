@@ -80,3 +80,8 @@ After implementing the algorithm, determine its:
 * Average-case time complexity
 * Worst-case time complexity
 * Space complexity
+
+## Notes
+the key here is to make a system that can look at a value and compare it to the value to the left of it, and move it based on the given rules, i.e. for ascending order, we want the smallest values to the left. so we need an algorithm to look at a value, compare it to the value to the left, and either move it based on the value or stay neutral.
+
+and then we need to account for the fail cases, such as duplicates, or negative integers, or being a null/zero/only one item.
