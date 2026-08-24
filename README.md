@@ -1,135 +1,246 @@
-# Book of Thoth
+<div align="center">
 
-> *A collection of algorithms, data structures, and computational ideas, written from first principles.*
+```text
+██████╗  ██████╗  ██████╗ ██╗  ██╗
+██╔══██╗██╔═══██╗██╔═══██╗██║ ██╔╝
+██████╔╝██║   ██║██║   ██║█████╔╝
+██╔══██╗██║   ██║██║   ██║██╔═██╗
+██████╔╝╚██████╔╝╚██████╔╝██║  ██╗
+╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
 
-Welcome to the **Book of Thoth**.
+████████╗ ██████╗ ████████╗██╗  ██╗
+╚══██╔══╝██╔═══██╗╚══██╔══╝██║  ██║
+   ██║   ██║   ██║   ██║   ███████║
+   ██║   ██║   ██║   ██║   ██╔══██║
+   ██║   ╚██████╔╝   ██║   ██║  ██║
+   ╚═╝    ╚═════╝    ╚═╝   ╚═╝  ╚═╝
+```
 
-This repository is my personal laboratory for learning Computer Science by doing the slightly unreasonable thing of **implementing everything myself**.
+### *Algorithms. Data Structures. First Principles.*
 
-No black boxes. No `sort()` button. No mysterious library incantations.
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge\&logo=c\&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge\&logo=cplusplus\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 
-Just algorithms, code, mistakes, debugging, and eventually understanding.
+</div>
 
 ---
 
-## The Method
+## `> What is this?`
 
-Each concept is studied by implementing it in three languages:
+**Book of Thoth** is a personal collection of algorithms and data structures implemented from scratch.
 
-The goal isn't merely to get the correct output.
+The purpose is simple:
 
-The goal is to understand **why the algorithm works**.
+**learn Computer Science by building it.**
+
+Every problem is approached from the underlying idea first, then implemented in **C, C++, and Python**.
+
+No built-in sorting functions.
+
+No copying implementations.
+
+No "I understand it because I watched a 14-minute video at 1.75× speed."
+
+Just the algorithm.
 
 ---
 
-## Current Chapters
+## `> The Approach`
+
+```text
+                  ┌───────────────────┐
+                  │      PROBLEM      │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │   UNDERSTAND IT   │
+                  └─────────┬─────────┘
+                            │
+                ┌───────────┼───────────┐
+                ▼           ▼           ▼
+           ┌────────┐  ┌────────┐  ┌────────┐
+           │   C    │  │  C++   │  │ Python │
+           └───┬────┘  └───┬────┘  └───┬────┘
+               │            │            │
+               └────────────┼────────────┘
+                            ▼
+                  ┌───────────────────┐
+                  │      TEST IT      │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │     UNDERSTAND    │
+                  │       AGAIN       │
+                  └───────────────────┘
+```
+
+The languages are not the subject.
+
+The **algorithm is**.
+
+Using three languages makes it harder to confuse a language's syntax with the actual computational idea.
+
+---
+
+## `> Chapters`
 
 ### Algorithms
 
-* [x] Insertion Sort
-* [x] Merge Sort
-* [ ] Selection Sort
-* [ ] Bubble Sort
-* [ ] Quick Sort
-* [ ] Heap Sort
-* [ ] Counting Sort
-* [ ] Radix Sort
-* [ ] Linear Search
-* [ ] Binary Search
-* [ ] Depth-First Search
-* [ ] Breadth-First Search
+```text
+[✓] Insertion Sort
+[✓] Merge Sort
+[ ] Selection Sort
+[ ] Bubble Sort
+[ ] Quick Sort
+[ ] Heap Sort
+[ ] Counting Sort
+[ ] Radix Sort
+[ ] Linear Search
+[ ] Binary Search
+[ ] Breadth-First Search
+[ ] Depth-First Search
+```
 
 ### Data Structures
 
-* [ ] Linked List
-* [ ] Stack
-* [ ] Queue
-* [ ] Hash Table
-* [ ] Binary Search Tree
-* [ ] Heap
-* [ ] Graph
-
-### Eventually
-
 ```text
-Algorithms
-      ↓
-Data Structures
-      ↓
-Discrete Mathematics
-      ↓
-Complexity
-      ↓
-Operating Systems
-      ↓
-Computer Architecture
-      ↓
-Compilers
-      ↓
-Distributed Systems
-      ↓
-????
+[ ] Linked List
+[ ] Stack
+[ ] Queue
+[ ] Hash Table
+[ ] Binary Search Tree
+[ ] Heap
+[ ] Graph
 ```
 
-The book has a rather long table of contents.
-
----
-
-## C · C++ · Python
-
-Every implementation is written with the same underlying idea in mind.
-
-The languages are simply different lenses:
+### Further Chapters
 
 ```text
-             ALGORITHM
-                 │
-       ┌─────────┼─────────┐
-       ▼         ▼         ▼
-      C         C++      Python
-   machinery   systems   clarity
+[ ] Recursion
+[ ] Divide & Conquer
+[ ] Greedy Algorithms
+[ ] Dynamic Programming
+[ ] Graph Algorithms
+[ ] String Algorithms
+[ ] Complexity Analysis
 ```
 
-Comparing the implementations helps expose what belongs to the **algorithm itself** and what belongs to the **language**.
+---
+
+## `> A Chapter Looks Like This`
+
+```text
+merge-sort/
+│
+├── problem.md
+│
+├── c/
+│   ├── code.c
+│   └── ...
+│
+├── cpp/
+│   ├── code.cpp
+│   └── ...
+│
+└── python/
+    └── code.py
+```
+
+Each chapter starts with the problem.
+
+Then comes the implementation.
+
+Then comes the inevitable battle with a missing semicolon.
 
 ---
 
-## The Rule
+## `> The Three Languages`
 
-> **Understand first. Memorize never.**
+```text
+             ┌──────────────┐
+             │   ALGORITHM  │
+             └──────┬───────┘
+                    │
+          ┌─────────┼─────────┐
+          │         │         │
+          ▼         ▼         ▼
+       ┌─────┐   ┌─────┐   ┌─────┐
+       │  C  │   │ C++ │   │ Py  │
+       └─────┘   └─────┘   └─────┘
+          │         │         │
+          ▼         ▼         ▼
+       memory    abstraction  clarity
+       control     & STL      & speed
+```
 
-If an algorithm can only be reproduced by remembering a particular loop from a textbook, the chapter isn't finished.
+C keeps the machinery visible.
 
-If it can be rebuilt from the underlying idea, then the knowledge has stuck.
+C++ introduces abstraction and stronger data-structure tooling.
+
+Python strips away much of the ceremony and exposes the underlying idea.
+
+Same problem.
+
+Different lenses.
 
 ---
 
-## Why "Book of Thoth"?
+## `> Current Progress`
 
-Thoth is traditionally associated with knowledge, writing, mathematics, and the preservation of wisdom.
+```text
+SORTING
+████████░░░░░░░░░░░░  40%
 
-That seemed appropriate for a repository whose entire purpose is:
+SEARCHING
+░░░░░░░░░░░░░░░░░░░░   0%
 
-**collecting things worth knowing.**
+DATA STRUCTURES
+░░░░░░░░░░░░░░░░░░░░   0%
 
-One algorithm at a time.
+GRADUALLY BECOMING
+DANGEROUSLY COMPETENT
+██████░░░░░░░░░░░░░░  30%
+```
 
 ---
+
+## `> Philosophy`
+
+> **Don't memorize the spell. Understand the machinery that makes the spell work.**
+
+An implementation is considered learned when it can be reconstructed from the algorithm rather than recalled line-for-line.
+
+The Book is therefore not a collection of solutions.
+
+It is a collection of things that have been **understood**.
+
+---
+
+## `> Why Thoth?`
+
+Thoth is traditionally associated with writing, knowledge, mathematics, and the preservation of wisdom.
+
+A fitting name for a repository whose entire purpose is to collect computational knowledge one chapter at a time.
+
+---
+
+<div align="center">
 
 ```text
 ╔══════════════════════════════════════╗
 ║                                      ║
-║       THE BOOK IS STILL BEING        ║
-║              WRITTEN.                ║
+║       THE BOOK IS STILL OPEN.        ║
 ║                                      ║
-║          ████████████████            ║
-║          █              █            ║
-║          █   CHAPTER 1  █            ║
-║          █      ...     █            ║
-║          █              █            ║
-║          ████████████████            ║
+║          ──── CHAPTER 02 ────        ║
+║                                      ║
+║             MERGE SORT               ║
 ║                                      ║
 ╚══════════════════════════════════════╝
 ```
 
-> *Read the algorithm. Close the book. Build it yourself.*
+**One problem. Three languages. One less thing I don't understand.**
+
+</div>
