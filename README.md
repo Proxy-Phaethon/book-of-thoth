@@ -24,7 +24,7 @@ The goal is to understand **why the algorithm works**.
 
 ## Current Chapters
 
-### Sorting
+### Algorithms
 
 * [x] Insertion Sort
 * [x] Merge Sort
@@ -34,9 +34,6 @@ The goal is to understand **why the algorithm works**.
 * [ ] Heap Sort
 * [ ] Counting Sort
 * [ ] Radix Sort
-
-### Searching
-
 * [ ] Linear Search
 * [ ] Binary Search
 * [ ] Depth-First Search
