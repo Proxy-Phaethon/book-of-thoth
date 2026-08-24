@@ -9,6 +9,10 @@
    ╚═╝   ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
 ```
 
+</div>
+
+<div align="center">
+
 ### *Algorithms. Data Structures. First Principles.*
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge\&logo=c\&logoColor=white)
