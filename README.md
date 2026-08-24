@@ -1,13 +1,13 @@
-<div align="center">
-
-```text
+<div align="center"> <pre> 
 ████████╗██╗  ██╗ ██████╗ ████████╗██╗  ██╗
 ╚══██╔══╝██║  ██║██╔═══██╗╚══██╔══╝██║  ██║
    ██║   ███████║██║   ██║   ██║   ███████║
    ██║   ██╔══██║██║   ██║   ██║   ██╔══██║
    ██║   ██║  ██║╚██████╔╝   ██║   ██║  ██║
    ╚═╝   ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝
-```
+</pre>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=440&lines=all+hail+thoth.;i+should+start+reading+mythology+again.;atleast+i+understand+algorithms+now.)](https://git.io/typing-svg)
 
 </div>
 
