@@ -185,37 +185,6 @@ Different lenses.
 
 ---
 
-## `> Current Progress`
-
-```text
-SORTING
-████████░░░░░░░░░░░░  40%
-
-SEARCHING
-░░░░░░░░░░░░░░░░░░░░   0%
-
-DATA STRUCTURES
-░░░░░░░░░░░░░░░░░░░░   0%
-
-GRADUALLY BECOMING
-DANGEROUSLY COMPETENT
-██████░░░░░░░░░░░░░░  30%
-```
-
----
-
-## `> Philosophy`
-
-> **Don't memorize the spell. Understand the machinery that makes the spell work.**
-
-An implementation is considered learned when it can be reconstructed from the algorithm rather than recalled line-for-line.
-
-The Book is therefore not a collection of solutions.
-
-It is a collection of things that have been **understood**.
-
----
-
 ## `> Why Thoth?`
 
 Thoth is traditionally associated with writing, knowledge, mathematics, and the preservation of wisdom.
