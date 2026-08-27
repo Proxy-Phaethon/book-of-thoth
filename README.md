@@ -90,7 +90,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Insertion Sort
 [✓] Merge Sort
 [✓] Selection Sort
-[ ] Bubble Sort
+[✓] Bubble Sort
 [ ] Quick Sort
 [ ] Heap Sort
 [ ] Counting Sort
