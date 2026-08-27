@@ -91,7 +91,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Merge Sort
 [✓] Selection Sort
 [✓] Bubble Sort
-[ ] Quick Sort
+[✓] Quick Sort
 [ ] Heap Sort
 [ ] Counting Sort
 [ ] Radix Sort
