@@ -93,7 +93,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Bubble Sort
 [✓] Quick Sort
 [✓] Heap Sort
-[ ] Counting Sort
+[✓] Counting Sort
 [ ] Radix Sort
 [ ] Linear Search
 [ ] Binary Search
