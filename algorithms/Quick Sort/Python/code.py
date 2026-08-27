@@ -1,5 +1,5 @@
-def quick_sort(arr: list[int]) -> None:
-    def partition(low: int, high: int) -> int:
+def quick_sort(arr):
+    def partition(low, high):
         pivot = arr[high]
         i = low - 1
 
@@ -12,7 +12,7 @@ def quick_sort(arr: list[int]) -> None:
 
         return i + 1
 
-    def sort(low: int, high: int) -> None:
+    def sort(low, high):
         if low >= high:
             return
 
