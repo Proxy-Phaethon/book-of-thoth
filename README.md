@@ -104,7 +104,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 ### Data Structures
 
 ```text
-[ ] Linked List
+[✓] Linked List
 [ ] Stack
 [ ] Queue
 [ ] Hash Table
