@@ -95,7 +95,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Heap Sort
 [✓] Counting Sort
 [✓] Radix Sort
-[ ] Linear Search
+[✓] Linear Search
 [ ] Binary Search
 [ ] Breadth-First Search
 [ ] Depth-First Search
