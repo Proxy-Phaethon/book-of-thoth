@@ -98,7 +98,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Linear Search
 [✓] Binary Search
 [✓] Breadth-First Search
-[ ] Depth-First Search
+[✓] Depth-First Search
 ```
 
 ### Data Structures
