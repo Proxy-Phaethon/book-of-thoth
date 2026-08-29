@@ -113,16 +113,26 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Graph
 ```
 
-### Further Chapters
+### Algorithmic Techniques
 
 ```text
 [ ] Recursion
 [ ] Divide & Conquer
+[ ] Complexity Analysis
+```
+
+### Algorithmic Strategies
+
+```text
 [ ] Greedy Algorithms
 [ ] Dynamic Programming
+```
+
+### Algorithm Families
+
+```text
 [ ] Graph Algorithms
 [ ] String Algorithms
-[ ] Complexity Analysis
 ```
 
 ---
