@@ -110,7 +110,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Hash Table
 [✓] Binary Search Tree
 [✓] Heap
-[ ] Graph
+[✓] Graph
 ```
 
 ### Further Chapters
