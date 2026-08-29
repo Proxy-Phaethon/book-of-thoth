@@ -108,7 +108,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 [✓] Stack
 [✓] Queue
 [✓] Hash Table
-[ ] Binary Search Tree
+[✓] Binary Search Tree
 [ ] Heap
 [ ] Graph
 ```
