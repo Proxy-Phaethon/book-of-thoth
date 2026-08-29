@@ -15,7 +15,7 @@ void enqueue(Queue *queue, int value)
     if (queue->size == queue->capacity)
     {
         int new_capacity = queue->capacity * 2;
-        int *new_data = malloc(new_capacity * sizeof(int));
+        int *new_data = (int *)malloc(new_capacity * sizeof(int));
 
         if (new_data == NULL)
         {
@@ -102,7 +102,7 @@ void free_queue(Queue *queue)
 int main(void)
 {
     Queue queue = {
-        .data = malloc(2 * sizeof(int)),
+        .data = (int *)malloc(2 * sizeof(int)),
         .front = 0,
         .rear = 0,
         .size = 0,
