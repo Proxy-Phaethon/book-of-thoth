@@ -25,6 +25,8 @@
 
 ## `> What is this?`
 
+**Done for now**
+
 **Book of Thoth** is a personal collection of algorithms and data structures implemented from scratch.
 
 The purpose is simple:
