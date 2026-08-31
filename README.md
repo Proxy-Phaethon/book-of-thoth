@@ -116,7 +116,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 ### Algorithmic Techniques
 
 ```text
-[ ] Recursion
+[✓] Recursion
 [ ] Divide & Conquer
 [ ] Complexity Analysis
 ```
