@@ -205,18 +205,6 @@ A fitting name for a repository whose entire purpose is to collect computational
 
 <div align="center">
 
-```text
-╔══════════════════════════════════════╗
-║                                      ║
-║       THE BOOK IS STILL OPEN.        ║
-║                                      ║
-║          ──── CHAPTER 02 ────        ║
-║                                      ║
-║             MERGE SORT               ║
-║                                      ║
-╚══════════════════════════════════════╝
-```
-
 **One problem. Three languages. One less thing I don't understand.**
 
 </div>
