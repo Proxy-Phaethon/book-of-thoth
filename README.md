@@ -124,7 +124,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 ### Algorithmic Strategies
 
 ```text
-[ ] Greedy Algorithms
+[✓] Greedy Algorithms
 [ ] Dynamic Programming
 ```
 
