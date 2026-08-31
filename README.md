@@ -125,7 +125,7 @@ Using three languages makes it harder to confuse a language's syntax with the ac
 
 ```text
 [✓] Greedy Algorithms
-[ ] Dynamic Programming
+[✓] Dynamic Programming
 ```
 
 ### Algorithm Families
